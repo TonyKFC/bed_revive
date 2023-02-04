@@ -1,2 +1,2 @@
 # bed_revive
-bed_revive
+fivem bed_revive

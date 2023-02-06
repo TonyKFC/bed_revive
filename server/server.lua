@@ -71,7 +71,7 @@ AddEventHandler('checking:money', function()
  
     xPlayer.removeAccountMoney('money', price) 
     TriggerClientEvent('bed:open',source)
-    TriggerEvent('esx_addonaccount:getSharedAccount', 'society_mechanic', function(account)  
+    TriggerEvent('esx_addonaccount:getSharedAccount', 'society_ambulance', function(account)  
         account.addMoney(price)
     end)
  
